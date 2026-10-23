@@ -1,0 +1,18 @@
+{
+  "$schema": "../node_modules/oxlint/configuration_schema.json",
+  "extends": [
+    "./core.json"
+  ],
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "no-alert": "error"
+  }
+}
